@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivay Enterprise | Digital Marketing & Web Development</title>
+  <meta name="description" content="Shivay Enterprise — your trusted partner for Digital Marketing, Website Development, App Development, SEO & Branding. Based in India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-hex">SE</div>
+        <span>Shivay Enterprise</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Digital Growth Agency
+      </div>
+      <h1 class="hero-title">
+        We Build<br />
+        <span class="gradient-text">Digital Empires</span><br />
+        For Your Brand
+      </h1>
+      <p class="hero-desc">
+        From stunning websites to powerful marketing campaigns — Shivay Enterprise transforms your ideas into results-driven digital experiences.
+      </p>
+      <div class="hero-btns">
+        <a href="#services" class="btn btn-gold" id="hero-explore-btn">Explore Services</a>
+        <a href="#contact" class="btn btn-outline" id="hero-contact-btn">Contact Us</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">100+</span>
+          <span class="stat-label">Projects Done</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">5★</span>
+          <span class="stat-label">Avg Rating</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="floating-card fc-1">
+        <div class="fc-icon">📈</div>
+        <div class="fc-info">
+          <span class="fc-title">Revenue Growth</span>
+          <span class="fc-val">+240%</span>
+        </div>
+      </div>
+      <div class="floating-card fc-2">
+        <div class="fc-icon">🎯</div>
+        <div class="fc-info">
+          <span class="fc-title">Campaign ROI</span>
+          <span class="fc-val">8x Return</span>
+        </div>
+      </div>
+      <div class="floating-card fc-3">
+        <div class="fc-icon">🚀</div>
+        <div class="fc-info">
+          <span class="fc-title">Sites Launched</span>
+          <span class="fc-val">100+</span>
+        </div>
+      </div>
+      <div class="hero-circle">
+        <div class="hero-circle-inner">
+          <div class="logo-hex large">SE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Services That <span class="gradient-text">Drive Results</span></h2>
+        <p class="section-desc">We offer end-to-end digital solutions tailored to grow your business online.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-item reveal" id="srv-digital" style="--delay:0.1s">
+          <div class="srv-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M8 28l8-8 6 6 8-10 10 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>Strategic campaigns across Google, Meta, Instagram & more to reach your ideal customers and maximize ROI.</p>
+          <ul class="srv-features">
+            <li>Google & Meta Ads</li>
+            <li>Email Campaigns</li>
+            <li>Analytics & Reporting</li>
+          </ul>
+          <a href="#contact" class="srv-link">Learn More →</a>
+        </div>
+
+        <div class="service-item reveal featured" id="srv-web" style="--delay:0.2s">
+          <div class="featured-badge">Most Popular</div>
+          <div class="srv-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><rect x="10" y="14" width="28" height="20" rx="2" stroke="currentColor" stroke-width="2"/><path d="M18 38h12M24 34v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M15 20l4 4-4 4M22 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>Beautiful, fast and responsive websites built to convert visitors into loyal customers, tailored to your brand.</p>
+          <ul class="srv-features">
+            <li>Business Websites</li>
+            <li>E-Commerce Stores</li>
+            <li>Landing Pages</li>
+          </ul>
+          <a href="#contact" class="srv-link">Learn More →</a>
+        </div>
+
+        <div class="service-item reveal" id="srv-app" style="--delay:0.3s">
+          <div class="srv-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><rect x="15" y="8" width="18" height="32" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="35" r="1.5" fill="currentColor"/><path d="M20 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>App Development</h3>
+          <p>Native and cross-platform mobile apps for Android & iOS that deliver seamless user experiences.</p>
+          <ul class="srv-features">
+            <li>Android & iOS Apps</li>
+            <li>UI/UX Design</li>
+            <li>App Maintenance</li>
+          </ul>
+          <a href="#contact" class="srv-link">Learn More →</a>
+        </div>
+
+        <div class="service-item reveal" id="srv-seo" style="--delay:0.4s">
+          <div class="srv-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><circle cx="21" cy="21" r="9" stroke="currentColor" stroke-width="2"/><path d="M28 28l8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M18 21h6M21 18v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>SEO & Growth</h3>
+          <p>Rank higher on Google and drive organic traffic with proven SEO strategies and content marketing.</p>
+          <ul class="srv-features">
+            <li>On-Page & Off-Page SEO</li>
+            <li>Keyword Research</li>
+            <li>Content Strategy</li>
+          </ul>
+          <a href="#contact" class="srv-link">Learn More →</a>
+        </div>
+
+        <div class="service-item reveal" id="srv-social" style="--delay:0.5s">
+          <div class="srv-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><circle cx="16" cy="24" r="3" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="14" r="3" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="34" r="3" stroke="currentColor" stroke-width="2"/><path d="M19 22l10-6M19 26l10 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Social Media</h3>
+          <p>Build a strong social presence with engaging content, community management and influencer partnerships.</p>
+          <ul class="srv-features">
+            <li>Content Creation</li>
+            <li>Community Management</li>
+            <li>Influencer Marketing</li>
+          </ul>
+          <a href="#contact" class="srv-link">Learn More →</a>
+        </div>
+
+        <div class="service-item reveal" id="srv-brand" style="--delay:0.6s">
+          <div class="srv-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><polygon points="24,10 28,20 39,20 30,27 33,38 24,31 15,38 18,27 9,20 20,20" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/></svg>
+          </div>
+          <h3>Branding & Design</h3>
+          <p>Craft a memorable brand identity — from logos and color palettes to full brand guidelines that stand out.</p>
+          <ul class="srv-features">
+            <li>Logo Design</li>
+            <li>Brand Guidelines</li>
+            <li>Creative Assets</li>
+          </ul>
+          <a href="#contact" class="srv-link">Learn More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us" id="about">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-left reveal">
+          <span class="section-tag">Why Choose Us</span>
+          <h2 class="section-title">We're Not Just an Agency.<br /><span class="gradient-text">We're Your Growth Partner.</span></h2>
+          <p class="why-desc">At Shivay Enterprise, we combine creativity with data-driven strategy to deliver measurable results. Every project is built with passion, precision and purpose.</p>
+
+          <div class="why-points">
+            <div class="why-point">
+              <div class="wp-icon">✦</div>
+              <div class="wp-text">
+                <strong>Results-Driven Approach</strong>
+                <span>We focus on metrics that matter — leads, conversions, and revenue growth.</span>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="wp-icon">✦</div>
+              <div class="wp-text">
+                <strong>Tailored Strategies</strong>
+                <span>No cookie-cutter solutions — every strategy is custom-built for your business.</span>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="wp-icon">✦</div>
+              <div class="wp-text">
+                <strong>Transparent Communication</strong>
+                <span>Regular updates, clear reporting and always-on support for peace of mind.</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-gold" id="about-cta-btn">Work With Us</a>
+        </div>
+
+        <div class="why-right reveal">
+          <div class="metrics-card">
+            <h4 class="metrics-title">Our Impact</h4>
+            <div class="metric-row" id="metric-1">
+              <span class="metric-label">Client Satisfaction</span>
+              <span class="metric-value">98%</span>
+              <div class="metric-bar"><div class="metric-fill" style="--pct:98%"></div></div>
+            </div>
+            <div class="metric-row" id="metric-2">
+              <span class="metric-label">On-Time Delivery</span>
+              <span class="metric-value">95%</span>
+              <div class="metric-bar"><div class="metric-fill" style="--pct:95%"></div></div>
+            </div>
+            <div class="metric-row" id="metric-3">
+              <span class="metric-label">Avg. Traffic Growth</span>
+              <span class="metric-value">3x</span>
+              <div class="metric-bar"><div class="metric-fill" style="--pct:80%"></div></div>
+            </div>
+            <div class="metric-row" id="metric-4">
+              <span class="metric-label">Lead Conversion Rate</span>
+              <span class="metric-value">72%</span>
+              <div class="metric-bar"><div class="metric-fill" style="--pct:72%"></div></div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">PV</div>
+            <div class="team-info">
+              <strong>Priyanka Vaghela</strong>
+              <span>Marketing Head, Shivay Enterprise</span>
+            </div>
+            <div class="team-quote">"Your vision is our mission."</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-bg-orb"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Ready to <span class="gradient-text">Grow Your Business?</span></h2>
+        <p class="section-desc">Reach out to us today and let's build something remarkable together.</p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <div class="contact-card" id="cinfo-phone1">
+            <div class="cinfo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012.18 1h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.91 8.15a16 16 0 006.29 6.29l1.42-1.42a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div class="cinfo-text">
+              <span class="cinfo-label">Call Us</span>
+              <a href="tel:+917041797059">+91 70417 97059</a>
+              <a href="tel:+919316329983">+91 93163 29983</a>
+            </div>
+          </div>
+
+          <div class="contact-card" id="cinfo-email">
+            <div class="cinfo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="cinfo-text">
+              <span class="cinfo-label">Email Us</span>
+              <a href="mailto:shivayenterprises825@gmail.com">shivayenterprises825@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card" id="cinfo-whatsapp">
+            <div class="cinfo-icon whatsapp-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="cinfo-text">
+              <span class="cinfo-label">WhatsApp</span>
+              <a href="https://wa.me/917041797059" target="_blank">Chat with us instantly</a>
+            </div>
+          </div>
+
+          <button class="btn btn-gold save-vcf-btn" onclick="saveContact()" id="save-vcf-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+            Save Contact
+          </button>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form reveal" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option>Digital Marketing</option>
+              <option>Website Development</option>
+              <option>App Development</option>
+              <option>SEO & Growth</option>
+              <option>Social Media</option>
+              <option>Branding & Design</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold full-width" id="form-submit-btn">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-hex">SE</div>
+          <div>
+            <span class="footer-name">Shivay Enterprise</span>
+            <span class="footer-tagline">Your Growth. Our Mission.</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Shivay Enterprise. All rights reserved.</p>
+        <p>✉ <a href="mailto:shivayenterprises825@gmail.com">shivayenterprises825@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
